@@ -1,0 +1,11 @@
+C:\Users\Melperret\OneDrive - Education Vaud\RAPPORT SLO2\MINF\TP4\Mélichibre & Salopey\Projet POBJ Mélissa\APP_MINF_CSHARP_MELISSA\APP_MINF_CSHARP_MELISSA\bin\Debug\APP_MINF_CSHARP_MELISSA.exe.config
+C:\Users\Melperret\OneDrive - Education Vaud\RAPPORT SLO2\MINF\TP4\Mélichibre & Salopey\Projet POBJ Mélissa\APP_MINF_CSHARP_MELISSA\APP_MINF_CSHARP_MELISSA\bin\Debug\APP_MINF_CSHARP_MELISSA.exe
+C:\Users\Melperret\OneDrive - Education Vaud\RAPPORT SLO2\MINF\TP4\Mélichibre & Salopey\Projet POBJ Mélissa\APP_MINF_CSHARP_MELISSA\APP_MINF_CSHARP_MELISSA\bin\Debug\APP_MINF_CSHARP_MELISSA.pdb
+C:\Users\Melperret\OneDrive - Education Vaud\RAPPORT SLO2\MINF\TP4\Mélichibre & Salopey\Projet POBJ Mélissa\APP_MINF_CSHARP_MELISSA\APP_MINF_CSHARP_MELISSA\obj\Debug\APP_MINF_CSHARP_MELISSA.csproj.AssemblyReference.cache
+C:\Users\Melperret\OneDrive - Education Vaud\RAPPORT SLO2\MINF\TP4\Mélichibre & Salopey\Projet POBJ Mélissa\APP_MINF_CSHARP_MELISSA\APP_MINF_CSHARP_MELISSA\obj\Debug\APP_MINF_CSHARP_MELISSA.csproj.SuggestedBindingRedirects.cache
+C:\Users\Melperret\OneDrive - Education Vaud\RAPPORT SLO2\MINF\TP4\Mélichibre & Salopey\Projet POBJ Mélissa\APP_MINF_CSHARP_MELISSA\APP_MINF_CSHARP_MELISSA\obj\Debug\APP_MINF_CSHARP_MELISSA.Form1.resources
+C:\Users\Melperret\OneDrive - Education Vaud\RAPPORT SLO2\MINF\TP4\Mélichibre & Salopey\Projet POBJ Mélissa\APP_MINF_CSHARP_MELISSA\APP_MINF_CSHARP_MELISSA\obj\Debug\APP_MINF_CSHARP_MELISSA.Properties.Resources.resources
+C:\Users\Melperret\OneDrive - Education Vaud\RAPPORT SLO2\MINF\TP4\Mélichibre & Salopey\Projet POBJ Mélissa\APP_MINF_CSHARP_MELISSA\APP_MINF_CSHARP_MELISSA\obj\Debug\APP_MINF_CSHARP_MELISSA.csproj.GenerateResource.cache
+C:\Users\Melperret\OneDrive - Education Vaud\RAPPORT SLO2\MINF\TP4\Mélichibre & Salopey\Projet POBJ Mélissa\APP_MINF_CSHARP_MELISSA\APP_MINF_CSHARP_MELISSA\obj\Debug\APP_MINF_CSHARP_MELISSA.csproj.CoreCompileInputs.cache
+C:\Users\Melperret\OneDrive - Education Vaud\RAPPORT SLO2\MINF\TP4\Mélichibre & Salopey\Projet POBJ Mélissa\APP_MINF_CSHARP_MELISSA\APP_MINF_CSHARP_MELISSA\obj\Debug\APP_MINF_CSHARP_MELISSA.exe
+C:\Users\Melperret\OneDrive - Education Vaud\RAPPORT SLO2\MINF\TP4\Mélichibre & Salopey\Projet POBJ Mélissa\APP_MINF_CSHARP_MELISSA\APP_MINF_CSHARP_MELISSA\obj\Debug\APP_MINF_CSHARP_MELISSA.pdb
