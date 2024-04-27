@@ -13,7 +13,7 @@ namespace APP_MINF_CSHARP_MELISSA
 {
     public partial class Form1 : Form
     {
-        
+
 
         public Form1()
         {
@@ -79,6 +79,56 @@ namespace APP_MINF_CSHARP_MELISSA
             }
 
         } // end btOpenClose_Click
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // Sélection de l'élément
+            string choixSignal = comboBox1.SelectedItem.ToString();
+
+            // Modifier l'image en fonction du choix sélectionné
+            switch (choixSignal)
+            {
+                case "Sinus":
+                    // Charger et afficher l'image sinus.jpg
+                    pb_ImagesFormes.Image = imageList1.Images[0];
+                    break;
+                case "Carre":
+                    // Charger et afficher l'image carre.png
+                    pb_ImagesFormes.Image = imageList1.Images[1];
+                    break;
+                case "Triangle":
+                    // Charger et afficher l'image triangle.png
+                    pb_ImagesFormes.Image = imageList1.Images[2];
+                    break;
+                case "Dent de scie":
+                    // Charger et afficher l'image dent_de_scie.png
+                    pb_ImagesFormes.Image = imageList1.Images[3];
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        private void pb_Images_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void numericUpDown2_ValueChanged(object sender, EventArgs e)
+        {
+            numericUpDown2.Value = System.Math.Round(numericUpDown2.Value / 20) * 20;
+        }
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+            numericUpDown1.Value = System.Math.Round(numericUpDown1.Value / 100) * 100;
+        }
+
+        private void numericUpDown3_ValueChanged(object sender, EventArgs e)
+        {
+            //Force à l'arrondi le plus proche pour éviter d'avoir un autre offset que ceux désirés
+            numericUpDown3.Value = System.Math.Round(numericUpDown3.Value / 100) * 100;
+        }
     }
 
 }
