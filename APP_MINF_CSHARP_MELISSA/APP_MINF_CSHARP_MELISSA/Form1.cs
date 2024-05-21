@@ -24,7 +24,7 @@ namespace APP_MINF_CSHARP_MELISSA
             }
             else
             {
-                bt_OpenClose.Enabled = false; // Griser le bouton Open
+                bt_OpenClose.Enabled = false; // Griser le bouton Open si aucun port n'est trouvé
                 lb_Port.Text = "Aucun Port Disponible !"; // Message informatif pour l'utilisateur
             }
 
@@ -39,24 +39,6 @@ namespace APP_MINF_CSHARP_MELISSA
             string messageTotal;
 
             messageTotal = "!S=";
-            //gestion du caractère à afficher
-            //switch (datas[0])
-            //{
-            //    case 0:
-            //        messageTotal += "S";
-            //        break;
-            //    case 1:
-            //        messageTotal += "C";
-            //        break;
-            //    case 2:
-            //        messageTotal += "T";
-            //        break;
-            //    case 3:
-            //        messageTotal += "D";
-            //        break;
-            //    default:
-            //        break;
-            //}
 
             messageTotal += ((string)cbo_Form.SelectedItem)[0]; // Ajoute la première lettre du nom de la formée sélectionée
 
@@ -95,7 +77,7 @@ namespace APP_MINF_CSHARP_MELISSA
 
         public void DispInListRxData()
         {
-            int a = serialPort1.BytesToRead;
+            //int a = serialPort1.BytesToRead;
 
             byte[] data = new byte[30];  // 30 pour prendre en compte le + et le P dans le message reçu
 
@@ -141,10 +123,6 @@ namespace APP_MINF_CSHARP_MELISSA
                     lb_SaveOK.Text = "Non";
                 }
             }
-
-            //bool hasOne = receivedMessage.EndsWith("1#");
-            ////Met à jour lb_SaveOK en conséquence
-            //lb_SaveOK.Text = hasOne ? "oui" : "non";
 
             // Ajoute le message reçu à la liste des données entrantes
             lstDataIn.Items.Add(receivedMessage);
@@ -329,7 +307,17 @@ namespace APP_MINF_CSHARP_MELISSA
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            bt_Send_Click(sender, e);
+            if (serialPort1.IsOpen)
+            {
+                bt_Send_Click(sender, e);
+            }
+            else
+            {
+                bt_OpenClose.Text = "Open";
+                gb_Tx.Enabled = false;
+                gb_Rx.Enabled = false;
+                lb_Port.Text = "Aucun Port Disponible !";
+            }
         }
 
         private void bt_Clear_TX_Click(object sender, EventArgs e)
