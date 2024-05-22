@@ -286,7 +286,7 @@ namespace APP_MINF_CSHARP_MELISSA
                 if (!timer1.Enabled)
                 {
                     //active envoi continu
-                    timer1.Interval = 50;  // Définit l'intervalle du timer pour envoyer un message toutes les 50 ms
+                    timer1.Interval = 25;  // Définit l'intervalle du timer pour envoyer un message toutes les 25 ms
                     timer1.Start(); // Démarre le timer
                     bt_SendContinuous.Text = "Stop envoi"; // Change le texte du bouton
                 }
